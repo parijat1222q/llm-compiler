@@ -1,0 +1,27 @@
+{
+  "name": "llm-compiler",
+  "version": "1.0.0",
+  "description": "LLM Compiler – Semantic Code Generator",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"No tests defined yet\" && exit 0"
+  },
+  "keywords": ["llm", "codegen", "express", "openai", "templates"],
+  "author": "Parijat & Dron",
+  "license": "MIT",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "joi": "^17.9.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
